@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/login.css" rel="stylesheet"/>
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/move.js"></script>
+        <script src="js/login.js"></script>  
+
+
+    </head>
+    <body id="container">
+       <div id="title">Cute Birds</div>
+        <img src ="images/golden.png" id="bird"/>
+        <form id=myform action="indexes/game.html" >
+            <input type = "text" value="" id = "txtarea" placeholder="Your Name" required pattern="[A-Za-z]{3,6}"/>     
+            <input type="submit" id="playbtn" value ="Play" onclick="saveName()">
+       
+        </form>
+            <div class = "aboutDiv" value="true" > 
+                <p> Welcom In Cute Birds ^^</p>
+                <pre>
+Try to shot birds and bumps
+if you shot blue bird your score will increase by 5 points
+but if you shot black bird your score will decrease by 10 points
+the golden bird will increase your score by 10 points
+shot bumps to kill birds surrounding
+<p>the big challange is to kill 50 birds with in 20 second :)</p>
+                </pre>
+            </div>       
+            <button id="aboutbtn"  onclick="about()">About</button>
+    </body>
+</html>

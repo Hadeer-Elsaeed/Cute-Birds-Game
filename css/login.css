@@ -1,0 +1,121 @@
+body{
+    background-image: url('../images/sky.jpg');
+    
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+
+#bird{
+
+   position:absolute;
+    width: 150px;
+    height: 150px;
+
+    
+}
+
+ 
+#myform{
+    text-align: center;
+    height : 60px;
+    margin-top :220px;
+  
+
+   /* border :2px solid black;*/
+}  
+#title{
+
+        font-family: cursive;
+        left: 400px;
+        color: gold;
+        font-size: 53px;
+        width: 270px;
+        margin: 10px auto;
+        background-color: inherit;
+        text-align: center;
+        position: relative;
+        top: 50px;
+}
+#txtarea{
+    text-align: center;
+    width: 30%;
+    height: 65px;
+    margin-left:120px;
+    border-radius: 25px;
+    background-color: gold;
+    font: 30px bold cursive;
+    outline: none;
+    color: ivory;
+    font-family: cursive;
+   
+
+}  
+
+
+#playbtn{
+    /* margin: 100px auto;  */
+    height: 70px;
+    width: 30%;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gold;
+    font: 35px bold tahoma;
+    color:white;
+    outline: none;
+    margin-left:490px;
+    margin-top: 20px;
+     display: block;  
+    font-family: cursive;
+
+    
+
+}     
+#aboutbtn{
+      height: 70px;
+      width: 30%;
+      border-radius: 25px;
+      text-align: center;
+      background-color: gold;
+      font: 35px bold tahoma;
+      color:white;
+      outline: none;
+      margin-left:490px;
+      margin-top: 120px;
+       display: block; 
+       -webkit-box-flex: 2; 
+      font-family: cursive;
+
+}
+.aboutDiv{
+    text-align: center;
+    height: 200px;
+    border-radius: 25px;
+    background: inherit;
+    font: 14px bold sans-serif;
+    font-family: cursive;
+    color:black;
+    display: none;
+     margin-top: 5%;  
+    background: rgba(245, 245, 245, 0.8);
+    display: none;
+   float :left;
+   } 
+pre{
+    margin:10 auto;
+    padding:0;
+    text-align: center;
+    color: coral;
+}
+p{
+    margin: 10 auto;
+    padding: 0;
+    color: rgb(255, 0, 34);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20;
+}
+
+   
+    
